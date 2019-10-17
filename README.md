@@ -7,6 +7,9 @@
 
 初步用Viper架构创建一个简单的新闻列表
 
+![Xnip2019-10-17_15-08-55.jpg](https://upload-images.jianshu.io/upload_images/1432381-56413facb4288066.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+
 # 感悟
 目前发现的弊端就是：
 1，使用第三方框架尤其UI框架的时候会出现不能“多继承”导致冲突，进而不能使用第三方库
