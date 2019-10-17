@@ -8,7 +8,7 @@
 
 # 感悟
 
-使用 [Viperit](https://github.com/ferranabello/Viperit/tree/1.3.3) 架构的**优点**：
+## 使用 [Viperit](https://github.com/ferranabello/Viperit/tree/1.3.3) 架构的**优点**：
 
 1，结构清晰；
 
@@ -16,7 +16,7 @@
 
 3，解耦合强；
 
-目前实践下来的**弊端**就是：
+## 目前实践下来的**弊端**就是：
 
 使用第三方框架尤其UI框架的时候会出现不能**多继承**导致冲突，进而不能使用第三方库
 
@@ -61,14 +61,21 @@ mkdir -p ~/Library/Developer/Xcode/Templates/
 cp -R Templates/Viperit ~/Library/Developer/Xcode/Templates/
 ```
 
-- Templates/Viperit从哪里来？（如图所示）
+#### Templates/Viperit从哪里来？（如图所示）
 
 ![Xnip2019-10-17_16-54-35.jpg](https://upload-images.jianshu.io/upload_images/1432381-b30b7b0d79afe761.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 ![Xnip2019-10-17_16-55-23.jpg](https://upload-images.jianshu.io/upload_images/1432381-fe2a05d867c36b4f.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
+#### 这几行命令的意思就是在`~/Library/Developer/Xcode`下创建`Templates`文件夹，`Templates/Viperit`中的内容复制到`Templates`文件夹下面，也可以手动复制过去
+
+  - 复制好后文件目录如下
+![Xnip2019-10-17_17-26-03.jpg](https://upload-images.jianshu.io/upload_images/1432381-1c77ed3f2615c712.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
 
 ### 设置成功后，在任何Xcode项目中新建文件（cmd + N）就能看到Viperit模版
+
+如果不行就重启Xcode
 
 - Universal: “通用”用于手机和平板电脑
 
