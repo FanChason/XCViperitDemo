@@ -1,0 +1,6 @@
+framework module Pods_XCViperitDemo_XCViperitDemoUITests {
+  umbrella header "Pods-XCViperitDemo-XCViperitDemoUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

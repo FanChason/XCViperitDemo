@@ -1,0 +1,6 @@
+framework module Viperit {
+  umbrella header "Viperit-umbrella.h"
+
+  export *
+  module * { export * }
+}
